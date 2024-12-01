@@ -1,0 +1,9 @@
+<article>
+  <header>
+    <h1>{{ title }}</h1>
+   <p><em>Publicado em {{ date | date("DD/MM/YYYY") }}</em></p>
+  </header>
+  <div>
+    {{ content | safe }}
+  </div>
+</article>

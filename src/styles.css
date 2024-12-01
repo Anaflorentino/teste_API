@@ -1,0 +1,40 @@
+/* src/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  article {
+    margin: 2rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
